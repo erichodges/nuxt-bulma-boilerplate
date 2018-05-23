@@ -1,7 +1,7 @@
 # Nuxt-Bulma-Sass 
 
 ## Getting started
-$ yarn
+$ yarn  
 $ yarn run dev
 
 ## Built With
