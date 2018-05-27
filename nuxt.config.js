@@ -19,7 +19,12 @@ module.exports = {
   },
   modules: [
     // provide path to the file with resources
-    ['nuxt-sass-resources-loader', './assets/main.scss']
+    'nuxt-sass-resources-loader',
+  ],
+  sassResources: [
+       '@/assets/scss/main.scss',
+       '@/assets/scss/base.scss'
+      
   ],
   /*
   ** Customize the progress bar color

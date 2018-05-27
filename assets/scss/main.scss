@@ -1,8 +1,12 @@
+@import "index.scss";
+@import "base.scss";
+@import "header.scss";
+
 /////////////////
 // Begin Bulma import
 // Customize Bulma between the @import lines
 @import "~bulma/sass/utilities/_all.sass";
-
+  
   $primary: red;
   $info: orange;
   $success: green;
@@ -16,5 +20,6 @@
 /////////////////
 // end bulma import
 
-@import "index.scss";
+
+
 
