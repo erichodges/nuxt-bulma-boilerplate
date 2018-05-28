@@ -17,15 +17,12 @@ module.exports = {
       { src: "https://unpkg.com/ionicons@4.0.0/dist/ionicons.js" }
     ]
   },
-  modules: [
-    // provide path to the file with resources
-    'nuxt-sass-resources-loader',
-  ],
-  sassResources: [
-       '@/assets/scss/main.scss',
-       '@/assets/scss/base.scss'
-      
-  ],
+
+ modules: ['nuxt-sass-resources-loader', [
+    '@/scss/main.scss',
+    '@/scss/base.scss'
+    ]],
+  
   /*
   ** Customize the progress bar color
   */
